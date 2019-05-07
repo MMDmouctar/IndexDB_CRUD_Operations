@@ -5,7 +5,6 @@ import prodb, {
   SortObj
 } from "./module.js";
 
-
 let db = prodb("Productdb", {
   products: `++id, name, seller, price`
 });
